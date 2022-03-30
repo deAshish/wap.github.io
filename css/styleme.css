@@ -57,3 +57,17 @@ a:link {
   a:hover {
     text-decoration: underline;
   }
+
+  .rotate{
+    transform: rotateX(180deg);
+  }
+
+  .movieDescription {
+    color: #3a3929;
+    margin-left: 40px;
+    font-family: monospace;
+  }
+  .movieDescriptionTitle {
+    color: #546E7A;
+    font-weight: bold;
+    font-family: monospace;
