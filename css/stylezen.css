@@ -1,0 +1,242 @@
+body {
+  margin: 0px;
+}
+
+.sectionHeading{
+  display: none;
+}
+a {
+  text-decoration: none;
+  color:rgb(30, 172, 106);
+}
+.sub-section a{
+  font-weight: bold;
+}
+
+h3{
+    font-family:  'Julius Sans One', sans-serif;
+    font-size: 1.8em;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/*Base layout*/
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: larger;
+}
+
+.wrapper > * {
+  flex: 1 100%;
+}
+
+.nav {
+  background-color: rgb(71, 130, 179);
+  height: 5px;
+  order: 1;
+}
+
+.section {
+  order: 3;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.section > * {
+  flex: 1 100%;
+}
+
+.sub-section {
+  order: 2;
+  flex-basis: 78%;
+}
+
+.aside {
+  order: 3;
+  flex-basis: 22%;
+  z-index: 600;
+  background-color: rgb(173, 191, 224);
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+}
+
+.sub-footer {
+    background-color: rgb(46, 58, 63);
+  order: 6;
+}
+
+.sub-footer > p {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer {
+  order: 7;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(73, 73, 71);
+}
+/*End of base layout*/
+/*Start of Header*/
+.header {
+  order: 2;
+  height: 310px;
+  background-image: url(../../images/nepal-banner.jpg);
+}
+
+h1 {
+  padding-top: 0;
+  padding-bottom: 5px;
+  border-bottom: none;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 3.2em;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  margin-top: 0px;
+  display: block;
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+  font-style: italic;
+  margin-top: 25px;
+  margin-left: 200px;
+}
+
+.archive > ul {
+  list-style: none;
+  display: flex;
+  float: right;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.archive > ul > li:first-child,
+.archive > ul > li:last-child,
+.viewall {
+  width: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  vertical-align: middle;
+  border: 1px solid rgb(55, 154, 161);
+  background-color: #654aad;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.4);
+}
+
+.archive > ul > li > a {
+  color: rgb(92, 138, 207);
+  font-weight: bolder;
+}
+
+.viewall {
+  width: 150px;
+}
+/*End of header layout*/
+/*Start of Side Menu*/
+.aside ul {
+  list-style: none;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.aside > .design {
+  background-color: rgb(173, 191, 224);
+}
+.aside ul > li {
+  padding-top: 20px;
+  font-style: italic;
+  border-bottom: 1px solid rgb(122, 186, 223);
+  padding-bottom: 25px;
+  margin-right: 25px;
+  margin-left: 25px;
+  font-style: normal;
+}
+.aside ul > li:last-child {
+  border-bottom: 0px;
+}
+
+.aside ul > li > .design-selection,
+.aside ul > li > .resource {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-family: "Julius Sans One", sans-serif;
+  display: block;
+  color: rgb(128, 128, 128);
+}
+
+.aside ul > li > .designer-name {
+  text-align: right;
+  font-size: 0.8em;
+  font-family: verdana, arial, helvetica;
+  color: gray;
+  font-style: normal;
+  opacity: 0.5;
+}
+
+.resource-heading,
+.design-heading {
+  margin-top: 0px;
+  padding: 5px;
+  box-shadow: 0 4px 2px -2px rgba(230, 223, 223, 0.4);
+  background-color: rgb(104, 181, 226);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+
+/*End of Side Menu*/
+/*Start of the content designing*/
+.articleA,.articleB,.articleC{
+    padding:15px;
+    padding-left:20px;
+    padding-right:20px;
+    font-family: "Julius Sans One", sans-serif;
+    color:rgb(122, 105, 105);
+    font-size: 0.979em;;
+}
+
+.sub-section p{
+    line-height:1.5em;
+}
+
+.articleB
+{
+    background-color:rgba(58, 111, 161, 0.13);
+}
+.articleC
+{
+    background-color:rgba(58, 111, 161, 0.13);
+}
+.requirements h3{
+    padding-top:50px;
+    margin-top:0px;
+}
+.articleA{
+    background-color: rgba(58, 111, 161, 0.13);
+}
+.html-css-file{
+    color: #a9b995;
+    background: #5b9cd1;
+}
+/*End of the content designing*/
+
+/*Sub footer*/
+.sub-footer{
+    padding:30px;
+    font-style: italic;
+    font-size: 2em;
+    line-height:1.5em;
+    color:#7296d8;
+}
+
+.sub-footer>p .name, .sub-footer>p .name-alt{
+    font-style: normal;
+}
+

@@ -1,0 +1,175 @@
+.flex-container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.flex-header{
+    background-color: rgb(199, 181, 181);
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 20px;
+   padding-top: 20px;
+}
+
+#moreAction{
+    background: inherit;
+    border: none;
+    font-size: 20px; 
+}
+
+
+.flex-container-body{
+    /* height: 80vh; */
+}
+
+.regInfo{
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+.form{
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   font-weight: bold;
+}
+input[type=text], input[type=email], input[type=number] {
+    width: auto;
+    border: 2px solid #ccc;
+    padding: 10px 20px;
+}
+textarea{
+
+  width: auto;
+  height: 150px;
+  padding: 10px 20px;
+  border: 2px solid #ccc;
+  
+}
+#country, #state, #meal{
+    width: auto;
+    border: 2px solid #ccc;
+    height: 4vh;
+    border-radius: 0%;
+    background-color:white;
+
+}
+
+input[type=checkbox]{
+position: relative;
+  height: 30px;
+  width: 30px;
+  background-color: #eee; 
+
+}
+
+.flex-footer{
+    background-color: rgb(199, 181, 181);
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 20px;
+   padding-top: 20px;
+}
+.flex-footer input{
+    font-size: 30px;
+    text-align: center;
+    border-bottom-color: inherit;
+    
+    
+}
+
+
+.wrapper, .left{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    
+}
+.right{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.meal, .remaining, .paymentMethod{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.moreAction {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .moreAction .action {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .oreAction-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .oreAction-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+ul{
+    list-style-type: none;
+}
+.combine{
+    margin-left: 35%;
+   margin-top: -9px;
+   
+   color: rgb(23, 235, 23);
+   
+}
+
+input[type=reset]{
+    background-color: rgb(34, 177, 34);
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight:500;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+input[type=reset]:hover{
+    background-color: red;
+}
+
+input[type=submit]{
+    background-color: rgb(34, 177, 34);
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight:500;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+input[type=submit]:hover{
+    background-color: green;
+}
+.astric{
+    color: red;
+}

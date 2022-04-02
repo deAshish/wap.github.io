@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5form.css">
+    <title>Form Design</title>
+</head>
+ß
+<body>
+    <div class="flex-container" style="overflow: auto">
+        <header class="flex-header">Workshop Registration   <select name="moreAction" id="moreAction"><option value="">More Action</option>
+            <option value="">Link 1</option>
+            <option value="">Link 2</option>
+             </select></header>
+             <form action="#">
+        <section class="flex-container-body" style="overflow: auto">
+            <div class="regInfo">Register now while seat are available!</div>
+           
+                
+                <div class="form" >
+                    <div class="wrapper">
+                        <div class="left">
+                            <label for="firstName">First Name <span class="astric">*</span></label>
+                            <input type="text" id="firstName" name="firstName" required/>
+
+                            <label for="lastName">Last Name <span class="astric">*</span></label>
+                            <input type="text" id="lastName" name="lastName" required/>
+
+                            <label for="comapny">Company/Institution <span class="astric">*</span></label>
+                            <input type="text" id="comapny" name="company" required/>
+
+                            <label for="address">Address <span class="astric">*</span></label>
+                            <textarea name="address" id="address" required></textarea>
+
+                            <label for="city">City</label>
+                            <input type="text" />
+                            
+
+                            <label for="state">State/Province/Region</label>
+                            <select name="state" id="state">
+                                <option value="">--Select--</option>
+                            </select>
+
+                            <label for="country">Country</label>
+                            <select name="country" id="country">
+                                <option value="">--Select--</option>
+                                
+                            </select>
+
+                            <label for="email">Email <span class="astric">*</span></label>
+                            <input type="email"  required/>
+
+                            <label for="number">Phone Number <span class="astric">*</span></label>
+                            <input type="number" pattern="([0-9]*)([+]){10}" required/>
+                        </div>
+                        <div class="right">
+                            <div class="lunch">Lunch</div>
+                            <div class="meal">
+                                <label for="meal">Meal Preference</label>
+                                <select name="meal" id="meal">
+                                    <option value="">Vegetarian</option>
+                                    <option value="">Non Vegetarian</option>
+                                    <option value="">Vegan</option>
+                                </select>
+                            </div>
+
+                            <div class="paymentMethod"><label for="payment">Payment Mode</label>
+                                <ul>
+                                    <li><input type="checkbox" name="cash" > Cash</li>
+                                    <li><input type="checkbox" name="cheque" >Cheque</li>
+                                    <li><input type="checkbox" name="Demand Draft" >Demand Draft</li>
+                                </ul>
+
+
+                            </div>
+
+
+                            <div class="remaining"><label for="chequeNo">DD/Cheque No.</label>
+                                <input type="text">
+
+                                <label for="bankName">Drawn On(Bank Name)</label>
+                                <input type="text">
+
+                                <label for="payableAt">Payable At</label>
+                                <input type="text">
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+           
+        </section>
+        <footer class="flex-footer" style="overflow: auto"><div class="combine"><input type="reset" value="Reset" /><input type="submit" value="Submit"/> </div></footer>
+    </form>
+    
+    </div>
+    
+        <a href="https://validator.w3.org/nu/?doc=https://deashish.github.io/wap.github.io/">
+        <img style="border:0;width:88px;height:31px" 
+            src="./images/images.png" alt="Validate"/>
+        </a> 
+    
+
+        
+            <a href="http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdeashish.github.io%2Fwap.github.io%2F">
+                <img style="border:0;width:88px;height:31px"
+                    src="./images/cssValidator.png"
+                    alt="Valid CSS!" />
+            </a>
+        
+
+</body>
+
+</html>
